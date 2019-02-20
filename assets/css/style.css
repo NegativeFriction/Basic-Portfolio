@@ -1,0 +1,91 @@
+body{
+    background-color: darkgray;
+}
+
+.topBox {
+    height: 100px;
+    width: 100%;
+    margin: 5px;
+    background: white;
+    position: relative;
+}
+.bottomBox{
+    height: 960px;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    background: white;
+    position: absolute;
+    top: 150px;
+    left: 275px;
+    z-index: -1;
+    
+}
+
+h1 {
+    padding: 0px 0;
+    margin: 0;
+    margin-left: 100;
+    margin-bottom: 960px;
+    font-size: 28px;
+    color: white;
+    background: teal;
+    float: left;
+    vertical-align: middle;
+    position: absolute;
+    top: 50px;
+    left: 20%;
+}
+
+a {
+    padding: 0px 0;
+    margin-top: 0;
+    margin-left: 100;
+    /* margin-bottom: 960px; */
+    font-size: 15px;
+    color: gray;
+    background: white;
+}
+
+h2{
+    float: right;
+    background: white;
+    margin-bottom: 960px;
+    vertical-align: top;
+    position: absolute;
+    top: 38px;
+    right: 20%;
+}
+.first{
+    position: relative;
+    display:block;
+    margin: 45px;
+    position: relative;
+    margin-top: 100px;
+}
+.second{
+    display:block;
+    margin: 45px;
+    position: relative;
+    
+}
+
+.third{
+    display:block;
+    margin: 10px;
+    position: relative;
+    
+}
+
+.image1{
+    left: 300px;
+    width: 200px;
+    height: 200px;
+    border: 
+}
+
+.image2{
+    left: 300px;
+    width: 200px;
+    height: 200px;
+}
