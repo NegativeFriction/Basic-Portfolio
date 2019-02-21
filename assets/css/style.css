@@ -47,18 +47,37 @@ h2{
 
 #BottomBox{
     width: 100%;
-    height: 960px;
+    height: auto;
     margin: auto;
     background-image: url("./../images/Background.jpg");
     z-index: -1;
 }
 
 #InteriorBox{
-    width: 65%;
-    height: 960px;
+    width: 960px;
+    height: 1000px;
     margin: auto;
+    
     background-color: white;
 
+}
+
+.Header-Text{
+    color: teal;
+    font-size: 80px;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.gray-line{
+    height: 3px;
+    width: 80%;
+    margin: auto;
+    background-color: lightgray;
+    opacity: 0.5;
 }
 
 .Pic{
@@ -105,6 +124,7 @@ img{
 
 .blueFooterBox{
     position: relative;
+    top: 50px;
     width: 100%;
     height: 100px;
     background-color: teal;
@@ -117,6 +137,7 @@ img{
 
 .grayFooterBox{
     position: relative;
+    top: 20%;
     width: 100%;
     height: 80px;
     top: 20px;
