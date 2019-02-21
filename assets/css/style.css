@@ -84,8 +84,6 @@ img{
     position: relative;
     height: 100%;
     width: 100%;
-    /* margin: 50px; */
-    /* margin-left: 125px; */
     border: 1px solid black;
     float: left;
     z-index: 1;
@@ -110,7 +108,18 @@ img{
     width: 100%;
     height: 100px;
     background-color: teal;
-    text-align: middle;
+    text-align: center;
     color: white;
     vertical-align: bottom;
+    line-height: 100px;
+    margin: auto;
+}
+
+.grayFooterBox{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    top: 20px;
+    background-color: darkgray;
+    margin: auto;
 }
