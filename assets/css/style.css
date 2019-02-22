@@ -14,7 +14,7 @@ body{
 h1 {
     padding: 0px 0;
     margin: 0;
-    margin-left: 100;
+    margin-left: -6%;
     font-size: 28px;
     color: white;
     background: teal;
@@ -28,7 +28,6 @@ h1 {
 a {
     padding: 0px;
     margin-top: 0;
-    margin-left: 100;
     font-size: 15px;
     color: gray;
     background: white;
@@ -52,11 +51,11 @@ h2{
 
 #InteriorBox{
     width: 960px;
-    /* overflow: auto; */
     height: auto;
     margin: auto;
     margin-top: 3%;
-    padding: 1%;
+    margin-bottom: 3%;
+    padding-bottom: 1%;
     
     background-color: white;
 
@@ -68,13 +67,14 @@ h2{
     font-weight: bold;
     width: 100%;
     margin-bottom: 3%;
-    text-align: center;
-    margin: auto;
+    margin-left: 3%;
+    text-align: left;
+    
 }
 
 .gray-line{
     height: 3px;
-    width: 80%;
+    width: 90%;
     margin: auto;
     background-color: lightgray;
     opacity: 0.5;
@@ -191,5 +191,17 @@ img{
     margin-left: 10%;
     margin-top: 3%;
     float: left;
+}
 
+/* End stuff for my about me page */
+
+/* Stuff for my Contact Page */
+
+form{
+    margin-top: 3%;
+    margin-left: 5%;
+    color:black;
+    font-size: 24px;
+    text-align: left;
+    
 }
