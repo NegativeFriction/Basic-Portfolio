@@ -1,7 +1,8 @@
 body{
-    background-color: darkgray;
+    background-image: url("./../images/Background.jpg");
 }
 
+/* Common Header Stuff */
 .topBox {
     height: 100px;
     width: 100%;
@@ -20,12 +21,12 @@ h1 {
     float: left;
     vertical-align: middle;
     position: absolute;
-    top: 50px;
+    bottom: 0%;
     left: 20%;
 }
 
 a {
-    padding: 0px 0;
+    padding: 0px;
     margin-top: 0;
     margin-left: 100;
     font-size: 15px;
@@ -38,25 +39,24 @@ a {
 h2{
     float: right;
     background: white;
-    margin-bottom: 960px;
+    /* margin-bottom: 960px; */
     vertical-align: top;
     position: absolute;
-    top: 38px;
+    bottom: 0.5%;
     right: 20%;
 }
+/* End Common Header Stuff */
 
-#BottomBox{
-    width: 100%;
-    height: auto;
-    margin: auto;
-    background-image: url("./../images/Background.jpg");
-    z-index: -1;
-}
+/* Common Body Stuff */
+
 
 #InteriorBox{
     width: 960px;
-    height: 1000px;
+    /* overflow: auto; */
+    height: auto;
     margin: auto;
+    margin-top: 3%;
+    padding: 1%;
     
     background-color: white;
 
@@ -67,7 +67,7 @@ h2{
     font-size: 80px;
     font-weight: bold;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 3%;
     text-align: center;
     margin: auto;
 }
@@ -80,6 +80,13 @@ h2{
     opacity: 0.5;
 }
 
+.clear{
+    clear:both;
+}
+
+/* End Common Body Stuff */
+
+/* Portfolio Stuff */
 .Pic{
     Position: relative;
     text-align: center;
@@ -121,11 +128,18 @@ img{
     float: left;
     opacity: 0.8;
 }
+/* End Portfolio Stuff */
+
+/* Footer Text Stuff */
+
+.footer{
+    /* position: absolute;
+    bottom: 0%; */
+    width: 100%;
+
+}
 
 .blueFooterBox{
-    position: relative;
-    top: 50px;
-    width: 100%;
     height: 100px;
     background-color: teal;
     text-align: center;
@@ -140,7 +154,42 @@ img{
     top: 20%;
     width: 100%;
     height: 80px;
-    top: 20px;
     background-color: darkgray;
     margin: auto;
+}
+/* End Footer Text Stuff */
+
+
+/* Stuff for my About Me Page */
+
+.left{
+    text-align: left;
+    margin-left: 4%;
+}
+
+.pic-wrapper > img{
+    width: 20%;
+    height: 20%;
+    float: left;
+    margin: auto;
+    margin-left: 0%;
+    margin-right: 10px;
+    margin-top: 1%;
+}
+
+.body-wrapper{
+    margin: auto;
+    margin-top:10%;
+    width: 80%;
+    height: auto;
+    float: left;
+    background-color: white;
+}
+
+.about{
+    margin: auto;
+    margin-left: 10%;
+    margin-top: 3%;
+    float: left;
+
 }
